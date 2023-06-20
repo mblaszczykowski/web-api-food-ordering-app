@@ -1,0 +1,22 @@
+services:
+  db:
+    container_name: food-ordering
+    image: postgres
+    environment:
+      POSTGRES_USER: mblaszczykowski
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    volumes:
+      - db:/data/postgres
+    ports:
+      - "5332"
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  db:
