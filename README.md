@@ -29,7 +29,6 @@ In test folder, there are tests written with JUnit & Mockito for Service classes
 * **Docker**
 * **Postman**
 * **JUnit & Mockito for tests**
-* **GitHub Copilot & GPT-4/3.5**
 * **IntelliJ Ultimate Edition**  
 
 ## Requests:
