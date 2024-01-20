@@ -1,13 +1,6 @@
 # REST API for a Food Ordering Application in Java with Spring Boot 3 and PostgreSQL database
 
-## Description
-Project contains 7 packages - Customer, Restaurant, Food, Order, Payment, Review and Exception with Controllers, DAOs interfaces, JPA implementations for these interfaces, Repositories, Services classes and Update/Registrations requests records for each package.
-
-The Service classes include code that prevents assigning entities to non-existent entities. This ensures that the data remains consistent and avoids errors. For example, when adding food to a restaurant, the code checks if the restaurant exists before making the association. Similarly, when creating a review, the code verifies if the customer, restaurant, and order mentioned in the review actually exist.
-
-In test folder, there are tests written with JUnit & Mockito for Service classes from each package.
-
-### The following classes are related to each other in the following ways:
+### Database
 
 | Class Relationship                           | Description                                              |
 |----------------------------------------------|----------------------------------------------------------|
