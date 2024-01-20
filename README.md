@@ -1,5 +1,17 @@
 # REST API for a Food Ordering Application in Java with Spring Boot 3 and PostgreSQL database
 
+### Technologies & tools used
+* **Java 17**
+* **Maven**
+* **Spring Boot 3**
+* **Spring Data JPA**
+* **PostgreSQL Database**
+* **Docker**
+* **Postman**
+* **JUnit & Mockito for tests**
+* **IntelliJ Ultimate Edition**
+
+
 ### Database
 
 | Class Relationship                           | Description                                              |
@@ -12,17 +24,6 @@
 | Review - Restaurant                           | Many-to-One (multiple reviews associated with one restaurant) |
 | Review - Order                                | One-to-One (one review associated with one order)          |
 
-
-### Technologies & tools used
-* **Java 17**
-* **Maven**
-* **Spring Boot 3**
-* **Spring Data JPA**
-* **PostgreSQL Database**
-* **Docker**
-* **Postman**
-* **JUnit & Mockito for tests**
-* **IntelliJ Ultimate Edition**  
 
 ## Requests:
 
